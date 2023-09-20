@@ -1,0 +1,52 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  color: #1e293b;
+}
+
+.input-container {
+  border: 1px solid #7b8794;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  height: 28px;
+  width: 190px;
+  font-weight: bolder;
+  background-color: transparent;
+  border: none;
+  padding-left: 12px;
+  outline: none;
+}
+
+.search-icon {
+  height: 16px;
+  padding-right: 6px;
+}
+
+.tabs-container {
+  display: flex;
+  padding-left: 0px;
+}
+
+.apps-container {
+  font-family: 'Bree Serif';
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
